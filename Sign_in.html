@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delta Watch</title>
+    <link rel="shortcut icon" href="images/title.jpg">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <style>
+        .box {
+            background-color: #fff;
+            margin-top: 25px;
+            margin-left: 150px;
+            width: 400px;
+            height: 500px;
+            box-shadow: 0px 0px 5px white;
+            border-radius: 5px;
+        }
+        
+        .bg-black {
+            margin-top: 60px;
+            background-color: black;
+        }
+        
+        .social-media {
+            width: 100px;
+            height: 35px;
+            margin-left: 10px;
+        }
+        
+        .dangnhap:hover {
+            color: rgb(28, 39, 245);
+            background-color: #fff;
+        }
+        
+        .dangky:hover {
+            color: rgb(223, 38, 38);
+            background-color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row mt-3">
+            <div class="col-md-1"></div>
+            <div class="col-md mt-4">Hotline: <b>0945 342 123</b></div>
+            <div class="col-md">
+                <a href="index.html"><img src="images/logo.png" alt="" style="height: 80px; width: 160px;"></a>
+            </div>
+
+            <div class="col-md mt-3">
+                <div class="btn-group">
+                    <button type="button" class="btn"><img src="images/kinhlup.png" alt="" style="height: 18px; width: 18px;"> Tìm kiếm</button>
+                    <a href="Gio_Hang.html"><button type="button" class="btn"><img src="images/xeday.png" alt="" style="height: 20px; width: 30px;">Giỏ hàng</button></a>
+                    <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#myModal"><img src="images/Sign-in.png" alt=""style="height: 20px; width: 20px;"> Đăng nhập</button>
+                </div>
+                <!-- The Modal -->
+                <div class="modal" id="myModal">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+
+                            <!-- Modal Header -->
+                            <div class="modal-header">
+                                <h4 class="modal-title" style="margin-left: 170px;">Đăng nhập</h4>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+
+                            <!-- Modal body -->
+                            <div class="modal-body">
+                                <div class="row">
+                                    <div class="col-md">
+                                        <div class="mb-3 mt-3 d-flex justify-content-center">
+                                            <input type="email" class="form-control" id="email" placeholder="Nhập email" name="email" style="width: 400px;">
+                                        </div>
+                                    </div>
+                                    <div class="col-md">
+                                        <div class="mb-3 d-flex justify-content-center">
+                                            <input type="password" class="form-control" id="pwd" placeholder="Nhập mật khẩu" name="pswd" style="width: 400px;">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 pt-3 d-flex justify-content-center">
+                                        <button type="submit" class="btn btn-primary dangnhap" style="width: 400px;">Đăng nhập</button>
+                                    </div>
+                                    <p class="text-secondary pt-2 d-flex justify-content-center">Hoặc</p>
+                                    <div class="col-md pb-4 d-flex justify-content-center">
+                                        <a href="Sign_in.html"><button type="submit" class="btn btn-danger dangky" style="margin-top: -10px; width: 400px;">Đăng ký</button></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <img src="images/background_sign_in.jpg" alt="" style="width: 100%;">
+            <div class="box position-absolute p-4">
+                <h4 class="text-center">Đăng ký</h4>
+                <form>
+                    <div class="mb-3 mt-2">
+                        <input type="text" class="form-control" id="name" placeholder="Nhập họ tên" name="name">
+                    </div>
+                    <div class="mb-3 mt-2">
+                        <input type="tel" class="form-control" id="tel" placeholder="Nhập số điện thoại" name="tel">
+                    </div>
+                    <div class="mb-3 mt-2">
+                        <input type="password" class="form-control" id="pwd" placeholder="Nhập mật khẩu" name="pswd">
+                    </div>
+                    <div class="mb-3 mt-2">
+                        <input type="password" class="form-control" id="pwd" placeholder="Nhập lại mật khẩu" name="pswd">
+                    </div>
+                    <div class="d-flex justify-content-center"><button type="submit" class="btn btn-danger dangky" style="width: 400px; box-shadow: 0px 0px 5px gray;">Đăng ký</button></div>
+                    <p class="text-center pt-3" style="opacity: 0.7; font-size: small;">HOẶC</p>
+                    <div class="row text-center">
+                        <div class="col-md">
+                            <div class="card">
+                                <div class="card-body">
+                                    <a href="" style="text-decoration: none; color: black;"><img src="images/Fb.png" alt="" style="width: 20px; height: 20px;">Facebook</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md">
+                            <div class="card">
+                                <div class="card-body">
+                                    <a href="" style="text-decoration: none; color: black;"><img src="images/GG.png" alt="" style="width: 20px; height: 20px;">Google</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center pt-2">Bằng việc đăng kí, bạn đã đồng ý với <a href="index.html" style="text-decoration: none;">Delta Watch</a> về điều khoản dịch vụ và chính sách bảo mật</div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer class="bg-black text-light mt-5" id="section6">
+        <div class="row pt-5 ">
+            <div class="col-md-12 ">
+                <div class="row pb-5 ">
+                    <div class="col-md-1 "></div>
+                    <div class="col-md ">
+                        <div class="row ">
+                            <div class="col-md-12 pb-2 ">
+                                <h3>Thông tin liên hệ</h3>
+                            </div>
+                            <div class="col-md-12 p-2 "><img src="images/dienthoai.png" alt="" style="width: 20px; height: 20px;"> Hotline: 0123 435 123</div>
+                            <div class="col-md-12 p-2 "><img src="images/dienthoai.png" alt="" style="width: 20px; height: 20px;"> Hotline: 0212 7789 345</div>
+                            <div class="col-md-12 p-2 "><img src="images/diachi.png" alt="" style="width: 30px; height: 30px;">Địa chỉ: Quận Bình Thạnh, HCM.</div>
+                            <div class="col-md-12 p-2 "><img src="images/email.png" alt="" style="width: 30px; height: 20px;">Emai: Huylexx@gmail.com</div>
+                            <div class="col-md-12 p-2 ">&nbsp;<img src="images/global.png" alt="" style="width: 18px; height: 18px;"> Website: deltawatch.com</div>
+                        </div>
+                    </div>
+                    <div class="col-md ">
+                        <div class="row ">
+                            <div class="col-md-12 ">
+                                <h3>Công ty Delta Watch</h3>
+                            </div>
+                            <div class="col-md-10 pt-3">Bạn đồng hành không thể thiếu của bạn thật sự mạnh mẽ hơn rất nhiều. Cảm biến nhiệt độ để biết những thông tin chuyên sâu hơn về sức khỏe phụ nữ. Và những cách tập luyện được cải thiện với ứng dụng Bài Tập cải tiến. Tương lai
+                                của sức khỏe chưa bao giờ tươi sáng đến thế.</div>
+                        </div>
+                    </div>
+                    <div class="col-md ">
+                        <h2>Địa chỉ của chúng tôi</h2>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31351.913934216223!2d106.6970697504193!3d10.81213476766729!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3175289f02a8eae9%3A0x34ec9d90e055cde3!2zQsOsbmggVGjhuqFuaCwgVGjDoG5oIHBo4buRIEjhu5MgQ2jDrSBNaW5oLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1685087253923!5m2!1svi!2s"
+                            width="500" height="250" style="border:0; border-radius: 5px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <div class="col-md-1"></div>
+                </div>
+
+            </div>
+            <div class="col-md-12 p-4 bg-dark ">
+                <div class="row ">
+                    <div class="col-md-4"></div>
+                    <div class="col-md">
+                        Copyright &copy; 2023 Delta Watch
+                        <a href=""><img src="images/social_media.png" alt="" class="social-media"></div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        </div>
+    </footer>
+</body>
+
+</html>
